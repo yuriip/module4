@@ -1,4 +1,4 @@
-package ua.goit.java.calculation;
+package ua.goit.java.temperature;
 
 public class TemperConv {
     private final static int POINT_ICE_MELTING = 32;

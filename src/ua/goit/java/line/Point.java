@@ -1,4 +1,4 @@
-package ua.goit.java.calculation;
+package ua.goit.java.line;
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
@@ -33,8 +33,8 @@ public class Point {
      * distance = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1))
      * (x1, y1), (x2, y2) - двух точек, которые находятся в массивах pointA и pointB соответственно
      */
-    public static double calculateDistance(Point a, Point b) {
-        double distance = sqrt(pow((b.x - a.x), 2) + pow((b.y - a.y), 2));
+    public double calculateDistance(Point point) {
+        double distance = sqrt(pow((point.x - this.x), 2) + pow((point.y - this.y), 2));
         return distance;
     }
 }

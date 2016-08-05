@@ -1,8 +1,8 @@
-package ua.goit.java.calculation;
+package ua.goit.java.shape;
 
 import static java.lang.Math.sqrt;
 
-public class Triangle extends Area {
+public class Triangle extends Shape {
     private double a;
     private double b;
     private double c;

@@ -1,9 +1,9 @@
-package ua.goit.java.calculation;
+package ua.goit.java.shape;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;
 
-public class Circle extends Area {
+public class Circle extends Shape {
     private double r;
 
     public Circle(double r) {

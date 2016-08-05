@@ -1,6 +1,6 @@
-package ua.goit.java.calculation;
+package ua.goit.java.shape;
 
-public class Rectangle extends Area {
+public class Rectangle extends Shape {
     private double a;
     private double b;
 
